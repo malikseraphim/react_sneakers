@@ -1,0 +1,17 @@
+@import '/src/assets/variables.scss';
+
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  max-width: 1300px;
+  width: 100%;
+  margin: 40px auto;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 20px;
+}
+
+main {
+  padding: 40px;
+}
